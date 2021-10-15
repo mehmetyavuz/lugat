@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3987E62395501F00AAA695 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3987E52395501F00AAA695 /* Model.swift */; };
+		0F45523126FBCA4900BE23D2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F45523026FBCA4500BE23D2 /* DetailViewController.swift */; };
+		0F45523326FCAE5000BE23D2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F45523226FCAE5000BE23D2 /* CardView.swift */; };
+		0F45523526FF3FDA00BE23D2 /* ProverbsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F45523426FF3FD900BE23D2 /* ProverbsTableViewCell.swift */; };
+		0F45523727007DFF00BE23D2 /* ProverbVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F45523627007DFE00BE23D2 /* ProverbVC.swift */; };
+		0F4552392700803D00BE23D2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4552382700803D00BE23D2 /* Utils.swift */; };
+		0F65F83D2708776C004CFD61 /* gts.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F65F83C2708776C004CFD61 /* gts.sqlite3 */; };
+		0F73794026F990D80016D620 /* autocomplete.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F73793F26F990D80016D620 /* autocomplete.json */; };
+		0F73794226F991570016D620 /* autocompleteSapka.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F73794126F991550016D620 /* autocompleteSapka.json */; };
 		0FBA665C239190F700092232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA665B239190F700092232 /* AppDelegate.swift */; };
 		0FBA665E239190F700092232 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA665D239190F700092232 /* SceneDelegate.swift */; };
 		0FBA6660239190F700092232 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA665F239190F700092232 /* ViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3987E52395501F00AAA695 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0F45523026FBCA4500BE23D2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0F45523226FCAE5000BE23D2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0F45523426FF3FD900BE23D2 /* ProverbsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProverbsTableViewCell.swift; sourceTree = "<group>"; };
+		0F45523627007DFE00BE23D2 /* ProverbVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProverbVC.swift; sourceTree = "<group>"; };
+		0F4552382700803D00BE23D2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		0F65F83C2708776C004CFD61 /* gts.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gts.sqlite3; sourceTree = "<group>"; };
+		0F73793F26F990D80016D620 /* autocomplete.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = autocomplete.json; sourceTree = "<group>"; };
+		0F73794126F991550016D620 /* autocompleteSapka.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = autocompleteSapka.json; sourceTree = "<group>"; };
 		0FBA6658239190F700092232 /* Lugat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lugat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBA665B239190F700092232 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FBA665D239190F700092232 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +55,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F73793E26F990A50016D620 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				0F65F83C2708776C004CFD61 /* gts.sqlite3 */,
+				0F73793F26F990D80016D620 /* autocomplete.json */,
+				0F73794126F991550016D620 /* autocompleteSapka.json */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		0FBA664F239190F600092232 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +84,16 @@
 		0FBA665A239190F700092232 /* Lugat */ = {
 			isa = PBXGroup;
 			children = (
+				0F73793E26F990A50016D620 /* assets */,
 				0FBA665B239190F700092232 /* AppDelegate.swift */,
 				0FBA665D239190F700092232 /* SceneDelegate.swift */,
+				0F3987E52395501F00AAA695 /* Model.swift */,
+				0F4552382700803D00BE23D2 /* Utils.swift */,
 				0FBA665F239190F700092232 /* ViewController.swift */,
+				0F45523026FBCA4500BE23D2 /* DetailViewController.swift */,
+				0F45523226FCAE5000BE23D2 /* CardView.swift */,
+				0F45523426FF3FD900BE23D2 /* ProverbsTableViewCell.swift */,
+				0F45523627007DFE00BE23D2 /* ProverbVC.swift */,
 				0FBA6661239190F700092232 /* Main.storyboard */,
 				0FBA6664239190FA00092232 /* Assets.xcassets */,
 				0FBA6666239190FA00092232 /* LaunchScreen.storyboard */,
@@ -94,7 +129,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = misbah;
 				TargetAttributes = {
 					0FBA6657239190F700092232 = {
@@ -126,8 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FBA6668239190FA00092232 /* LaunchScreen.storyboard in Resources */,
+				0F73794226F991570016D620 /* autocompleteSapka.json in Resources */,
 				0FBA6665239190FA00092232 /* Assets.xcassets in Resources */,
+				0F65F83D2708776C004CFD61 /* gts.sqlite3 in Resources */,
 				0FBA6663239190F700092232 /* Main.storyboard in Resources */,
+				0F73794026F990D80016D620 /* autocomplete.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +179,12 @@
 				0FBA6660239190F700092232 /* ViewController.swift in Sources */,
 				0FBA665C239190F700092232 /* AppDelegate.swift in Sources */,
 				0FBA665E239190F700092232 /* SceneDelegate.swift in Sources */,
+				0F45523727007DFF00BE23D2 /* ProverbVC.swift in Sources */,
+				0F3987E62395501F00AAA695 /* Model.swift in Sources */,
+				0F4552392700803D00BE23D2 /* Utils.swift in Sources */,
+				0F45523526FF3FDA00BE23D2 /* ProverbsTableViewCell.swift in Sources */,
+				0F45523326FCAE5000BE23D2 /* CardView.swift in Sources */,
+				0F45523126FBCA4900BE23D2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +216,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_SECURITY_KEYCHAIN_API = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -192,6 +237,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -232,6 +278,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_SECURITY_KEYCHAIN_API = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -252,6 +299,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -284,15 +332,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = 2ERGCGWXV3;
 				INFOPLIST_FILE = Lugat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.misbah.Lugat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.lugat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,15 +354,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = 2ERGCGWXV3;
 				INFOPLIST_FILE = Lugat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.misbah.Lugat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.lugat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

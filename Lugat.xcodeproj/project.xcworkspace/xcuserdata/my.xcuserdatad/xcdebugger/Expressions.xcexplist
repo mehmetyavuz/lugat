@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "DetailViewController.tableView(_:titleForHeaderInSection:):DetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "kelimeler[section].lisan">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in ViewController.ara(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "res[0].cogul_mu">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.tableView(_:didSelectRowAt:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selected">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CardView.configure(anlamlarListesi:atasozleri:):CardView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "btnProverb.isHidden">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchTableViewController.updateSearchResults(for:):SearchTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "searchController.searchBar.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.prepare(for:sender:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selected">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewController.ara(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "JSONDecoder().decode(Any, from: data)">
+            </PersistentString>
+            <PersistentString
+               value = "String(data: data, encoding: .utf8)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.ara(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailViewController.fetchData():DetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "kelimeler">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Utils.GetItem(wanted:):Utils.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "wanted.replacingOccurrences(of: &quot;&apos;&quot;, with: &quot;`&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailViewController.tableView(_:cellForRowAt:):DetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "kelimeler[indexPath.section].atasozu">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
